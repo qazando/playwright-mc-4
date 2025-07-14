@@ -7,4 +7,5 @@ test('Cenario 1 - Login', async ({ page }) => {
     await digitarSenhaV2(page, usuarioValido.senha);
     await clicarEmLogin(page);  
     await validarLoginV2(page, 'Olá, ' +  usuarioValido.email);
+    await validarLoginV2(page, 'Olá, ' +  usuarioValido.email);
 });
